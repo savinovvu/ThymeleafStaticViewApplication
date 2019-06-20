@@ -27,4 +27,6 @@ public class ThymeleafStaticViewApplication {
         ClassPathResource classPathResource = new ClassPathResource("static/index.html");
         return ResponseEntity.ok(classPathResource);
     }
+
+
 }
